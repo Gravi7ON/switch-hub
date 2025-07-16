@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "switch-hub"
+name = "switch_hub"
 version = "0.0.1"
 authors = [
     { name = "Dmitry Radionov", email = "radionovdmr@gmail.com" },
