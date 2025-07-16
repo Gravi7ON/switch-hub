@@ -1,1 +1,1 @@
-from main import HubSwitcher
+from .main import HubSwitcher

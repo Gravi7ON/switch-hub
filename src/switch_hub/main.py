@@ -4,8 +4,8 @@ from typing import Any, Callable, Dict, Optional, List, ContextManager
 import huggingface_hub
 import datasets
 
-from logger import logger
-from helpers import safe_setattr, safe_getattr, make_attr_store_key, set_tokens
+from .logger import logger
+from .helpers import safe_setattr, safe_getattr, make_attr_store_key, set_tokens
 
 from dotenv import load_dotenv
 
