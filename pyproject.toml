@@ -16,6 +16,11 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+dependencies = [
+    "huggingface-hub==0.33.4",
+    "datasets==4.0.0",
+    "dotenv==0.9.9"
+]
 
 [project.urls]
 Homepage = "https://github.com/Gravi7ON/switch-hub"

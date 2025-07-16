@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 if load_dotenv():
     logger.info("Переменные окружения загружены из .env файла")
 else:
-    logger.info(".env файл не найден или пустой.")
+    logger.info(".env файл не найден или пустой. В таком случае вы должны явно передать токены доступа в конструктор HubSwitcher")
 
 
 class HubSwitcher:
